@@ -1,1 +1,19 @@
+on:
+  push:
+    brunches:
+      - master
 
+
+
+
+
+jobs:
+ build:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: 'Testing Github action'
+      run: pwd
+
+      - name: 'Testing Printing'
+        run: echo Yasmina
